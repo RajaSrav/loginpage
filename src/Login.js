@@ -9,11 +9,11 @@ class Login extends React.Component {
         <div className="login">
         <h3> User Login</h3>
           <div className="user_name common">
-            <span className="text common"> User Name</span>
+            <span className="text common">User Name</span>
             <input type="text " id="name" placeholder="Person Name"/>
           </div>
           <div className="user_name common">
-            <span className="text common"> User Name</span>
+            <span className="text common">Password</span>
             <input type="password" id="name" placeholder="Person Name"/>
           </div>
           <div className="button common">
