@@ -9,6 +9,8 @@
 }
 .image {
 width: 8%;
+border-radius: 3px 3px 3px 3px;
+
 }
 .clg {
   margin-right: auto;
