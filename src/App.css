@@ -14,6 +14,9 @@ width: 8%;
   margin-right: auto;
   margin-left: auto;
 }
+.clg h1 {
+  color: #ffffff;
+}
 /* ----------Footer styles---------------------- */
 .footer {
   background-color: #000000;
@@ -46,14 +49,26 @@ width: 8%;
 h3 {
   margin-top: 0;
 }
-.button {
+.ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-.button1 {
-  font-size: 23px;
-  background-color: #000fff;
-  color: #ffffff;
+.li {
   margin: 1%;
+  box-shadow: 8px 8px 8px #ddd;
+  border: 3px solid #ddd;
+  border-radius: 5Px 5px 5px 5px;
   padding: 1%;
+  background-color: #000fff;
+  width: 30%;
+  text-align: center;
+  font-size: 23px;
+  list-style: none;
+}
+.li:hover {
+  box-shadow: 8px 8px 8px #00f;
+  border: 3px solid #fff;
+  color: #fff;
+  border-radius: 5Px 5px 5px 5px;
 }
